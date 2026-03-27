@@ -99,7 +99,7 @@ class Question:
         list[int]: A list of IDs of the correct choices that were selected.
 
     Raises:
-        Exception: If more than the maximum allowed selections are made.
+        Exception: max_selectionsIf more than the maximum allowed selections are made.
     """
 
     def correct_selected_choices(self, selected_choice_ids: list[int]) -> list[int]:

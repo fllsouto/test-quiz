@@ -2,17 +2,17 @@
 
 - [\[x\] Testing Quiz](#x-testing-quiz)
     - [\[x\] Overview](#x-overview)
-- [\[ \] Commit 1: Running the tests](#--commit-1-running-the-tests)
+- [\[x\] Commit 1: Running the tests](#x-commit-1-running-the-tests)
     - [\[x\] Crie um fork deste repositório](#x-crie-um-fork-deste-repositório)
     - [\[x\] Ative o GitHub Actions para rodar os testes a cada commit](#x-ative-o-github-actions-para-rodar-os-testes-a-cada-commit)
     - [\[x\] Clone o seu repositório](#x-clone-o-seu-repositório)
     - [\[x\] Instale o pytest](#x-instale-o-pytest)
     - [\[x\] Rode os testes localmente](#x-rode-os-testes-localmente)
-    - [\[ \] Faça o commit para executar os testes remotamente (via GitHub Actions)](#--faça-o-commit-para-executar-os-testes-remotamente-via-github-actions)
-- [Commit 2: Creating 10 unit tests](#commit-2-creating-10-unit-tests)
-    - [Faça o commit](#faça-o-commit)
+    - [\[x\] Faça o commit para executar os testes remotamente (via GitHub Actions)](#x-faça-o-commit-para-executar-os-testes-remotamente-via-github-actions)
+- [\[x\] Commit 2: Creating 10 unit tests](#x-commit-2-creating-10-unit-tests)
+    - [\[x\] Faça o commit](#x-faça-o-commit)
 - [Commit 3: Testing with fixtures](#commit-3-testing-with-fixtures)
-    - [Faça o commit](#faça-o-commit-1)
+    - [Faça o commit](#faça-o-commit)
 
 
 # [x] Testing Quiz
@@ -48,7 +48,7 @@ def test_create_choice():
 
 Você deve realizar os 3 commits descritos abaixo e submeter os 3 links dos commits via Moodle.
 
-# [ ] Commit 1: Running the tests
+# [x] Commit 1: Running the tests
 
 Antes de iniciar as atividades de teste, precisamos configurar o repositório de trabalho.
 
@@ -105,7 +105,7 @@ tests.py::test_create_choice PASSED                                             
 =========================================== 5 passed in 0.01s ============================================
 ```
 
-### [ ] Faça o commit para executar os testes remotamente (via GitHub Actions)
+### [x] Faça o commit para executar os testes remotamente (via GitHub Actions)
 
 Os testes serão executados automaticamente no GitHub Actions sempre que um commit é realizado.
 Portanto, para rodar os testes no GitHub Actions, realize uma alteração qualquer neste arquivo `README.md` e faça o commit da alteração com a seguinte mensagem: `Commit 1: Running the tests`.
@@ -113,7 +113,7 @@ Portanto, para rodar os testes no GitHub Actions, realize uma alteração qualqu
 Em seguida, clique na aba `Actions` e veja que os testes foram executados com sucesso no GitHub Actions. 
 Observe as execuções em múltiplos sistemas operacionais (Ubuntu, macOS e Windows) e versões da linguagem Python.
 
-# Commit 2: Creating 10 unit tests
+# [x] Commit 2: Creating 10 unit tests
 
 Crie mais dez testes de unidade no arquivo `tests.py`.
 Utilize boas práticas, tais como (1) testar comportamentos, não métodos, (2) testar através de APIs públicas e (3) criar testes pequenos e focados.
@@ -121,7 +121,7 @@ Utilize boas práticas, tais como (1) testar comportamentos, não métodos, (2) 
 Rode os testes localmente com o comando `pytest -v tests.py`.
 Só faça o commit com os testes passando.
 
-### Faça o commit
+### [x] Faça o commit
 Com os testes passando, faça o commit com a seguinte mensagem: `Commit 2: Creating 10 unit tests`.
 
 # Commit 3: Testing with fixtures
