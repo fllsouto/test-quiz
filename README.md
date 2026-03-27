@@ -1,11 +1,26 @@
 [![tests](https://github.com/andrehora/test-quiz/actions/workflows/tests.yml/badge.svg)](https://github.com/andrehora/test-quiz/actions/workflows/tests.yml)
 
-# Testing Quiz
+- [\[x\] Testing Quiz](#x-testing-quiz)
+    - [\[x\] Overview](#x-overview)
+- [\[ \] Commit 1: Running the tests](#--commit-1-running-the-tests)
+    - [\[x\] Crie um fork deste repositório](#x-crie-um-fork-deste-repositório)
+    - [\[x\] Ative o GitHub Actions para rodar os testes a cada commit](#x-ative-o-github-actions-para-rodar-os-testes-a-cada-commit)
+    - [\[x\] Clone o seu repositório](#x-clone-o-seu-repositório)
+    - [\[x\] Instale o pytest](#x-instale-o-pytest)
+    - [\[x\] Rode os testes localmente](#x-rode-os-testes-localmente)
+    - [\[ \] Faça o commit para executar os testes remotamente (via GitHub Actions)](#--faça-o-commit-para-executar-os-testes-remotamente-via-github-actions)
+- [Commit 2: Creating 10 unit tests](#commit-2-creating-10-unit-tests)
+    - [Faça o commit](#faça-o-commit)
+- [Commit 3: Testing with fixtures](#commit-3-testing-with-fixtures)
+    - [Faça o commit](#faça-o-commit-1)
+
+
+# [x] Testing Quiz
 
 Neste exercício, iremos melhorar os testes de unidade de sistema de quiz.
 Você deve realizar os 3 commits descritos abaixo e submeter os 3 links dos commits via Moodle.
 
-### Overview
+### [x] Overview
 
 Primeiramente, explore o código do sistema em [model.py](https://github.com/andrehora/test-quiz/blob/main/model.py).
 Note que temos duas classes: `Question` (que representa as questões do quiz) e `Choice` (escolha das questões).
@@ -33,17 +48,17 @@ def test_create_choice():
 
 Você deve realizar os 3 commits descritos abaixo e submeter os 3 links dos commits via Moodle.
 
-# Commit 1: Running the tests
+# [ ] Commit 1: Running the tests
 
 Antes de iniciar as atividades de teste, precisamos configurar o repositório de trabalho.
 
-### Crie um fork deste repositório
+### [x] Crie um fork deste repositório
 
 Primeiramente, crie um fork deste repositório.
 Para isso, basta clicar no botão `Fork` no canto superior direito.
 Caso tenha dúvidas, verifique a documentação do GitHub sobre como [criar fork de um repositório](https://docs.github.com/pt/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo).
 
-### Ative o GitHub Actions para rodar os testes a cada commit
+### [x] Ative o GitHub Actions para rodar os testes a cada commit
 
 Neste projeto, utilizamos o [GitHub Actions](https://github.com/features/actions) (ferramenta de CI/CD do GitHub) para executar os testes automaticamente a cada commit.
 
@@ -53,7 +68,7 @@ Veja um exemplo da execução em: https://github.com/andrehora/test-quiz/actions
 Ative o GitHub Actions no seu repositório.
 Para isso, basta ir na aba `Actions` e clicar no botão verde.
 
-### Clone o seu repositório
+### [x] Clone o seu repositório
 
 Em seguida, clone o seu repositório para uma pasta local e entre na pasta:
 
@@ -62,7 +77,7 @@ $ git clone https://github.com/<SEU-USUARIO>/quiz
 $ cd quiz
 ```
 
-### Instale o pytest
+### [x] Instale o pytest
 
 > [!NOTE]
 > Antes de instalar a ferramenta, é recomendado criar e ativar um [ambiente virtual Python](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/#create-and-use-virtual-environments).
@@ -74,7 +89,7 @@ Instale o pytest:
 $ pip install pytest
 ```
 
-### Rode os testes localmente
+### [x] Rode os testes localmente
 
 Para executar os testes localmente, basta rodar o comando `pytest -v tests.py`:
 
@@ -90,7 +105,7 @@ tests.py::test_create_choice PASSED                                             
 =========================================== 5 passed in 0.01s ============================================
 ```
 
-### Faça o commit para executar os testes remotamente (via GitHub Actions)
+### [ ] Faça o commit para executar os testes remotamente (via GitHub Actions)
 
 Os testes serão executados automaticamente no GitHub Actions sempre que um commit é realizado.
 Portanto, para rodar os testes no GitHub Actions, realize uma alteração qualquer neste arquivo `README.md` e faça o commit da alteração com a seguinte mensagem: `Commit 1: Running the tests`.

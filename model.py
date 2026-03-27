@@ -134,4 +134,3 @@ class Question:
         
     def _list_choice_ids(self) -> list[int]:
         return [choice.id for choice in self.choices]
-        
