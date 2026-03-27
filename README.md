@@ -11,8 +11,8 @@
     - [\[x\] Faça o commit para executar os testes remotamente (via GitHub Actions)](#x-faça-o-commit-para-executar-os-testes-remotamente-via-github-actions)
 - [\[x\] Commit 2: Creating 10 unit tests](#x-commit-2-creating-10-unit-tests)
     - [\[x\] Faça o commit](#x-faça-o-commit)
-- [Commit 3: Testing with fixtures](#commit-3-testing-with-fixtures)
-    - [Faça o commit](#faça-o-commit)
+- [\[x\] Commit 3: Testing with fixtures](#x-commit-3-testing-with-fixtures)
+    - [\[x\] Faça o commit](#x-faça-o-commit-1)
 
 
 # [x] Testing Quiz
@@ -124,7 +124,7 @@ Só faça o commit com os testes passando.
 ### [x] Faça o commit
 Com os testes passando, faça o commit com a seguinte mensagem: `Commit 2: Creating 10 unit tests`.
 
-# Commit 3: Testing with fixtures
+# [x] Commit 3: Testing with fixtures
 
 Crie pelo menos mais dois testes de unidade utilizando as [fixtures do pytest](https://docs.pytest.org/en/stable/explanation/fixtures.html).
 Por exemplo, você pode incluir na fixture uma questão com múltiplas escolhas, e esta questão será reutilizada nos testes.
@@ -146,5 +146,5 @@ def test_in(data):
     assert 1 in data
 ```
 
-### Faça o commit
+### [x] Faça o commit
 Com os testes passando, faça o commit com a seguinte mensagem: `Commit 3: Testing with fixtures`.
